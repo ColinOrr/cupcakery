@@ -125,7 +125,7 @@ SWEET.map = function(){
 	
 
 var map;
-var brooklyn = new google.maps.LatLng(40.759277, -73.977064);
+var ballyclare = new google.maps.LatLng(54.95151,-5.99968);
 
 var MY_MAPTYPE_ID = 'custom_style';
 
@@ -176,8 +176,8 @@ function initialize() {
 ];
 
   var mapOptions = {
-    zoom: 17,
-    center: brooklyn,
+    zoom: 10,
+    center: ballyclare,
 	disableDefaultUI: true,
 	scrollwheel: false,
     mapTypeControlOptions: {
